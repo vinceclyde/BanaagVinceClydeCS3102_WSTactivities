@@ -3,10 +3,6 @@
    box-sizing: border-box;
 }
 
-.pfp {
-  border-radius: 50%;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -20,7 +16,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-
 
 .container {
     width: 65%;
