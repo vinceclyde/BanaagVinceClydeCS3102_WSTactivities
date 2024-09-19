@@ -1,0 +1,84 @@
+*,
+*::before, *::after {
+   box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('fbg.png');
+    background-size: cover;         
+    background-repeat: no-repeat; 
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    width: 65%;
+    height: 300px;
+    margin-top: 35px;
+    background: none;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-baseline;
+}
+
+.item {
+    width: 250px;
+    border-radius: 20px;
+    height: 320px;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.overlay {
+	border-radius: 8px;
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+	}
+
+.item:hover .overlay {
+  	opacity: 1;
+	}
+
+.image-wrapper {
+    position: relative; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper:hover .overlay {
+    opacity: 1;
+}
+
+
+
+
