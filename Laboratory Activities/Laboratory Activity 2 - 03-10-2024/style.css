@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('assets/wallpaper.jpg');
+    background-size: cover;         
+    background-repeat: no-repeat; 
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.image-container {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px; 
+}
+
+.image {
+    border-radius: 10px;
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.image-1 {
+    width: 430px;
+    height: 300px;
+    top: 0; 
+    left: 0; 
+}
+
+.image-2 {
+    width: 520px;
+    height: 240px;
+    top: 200px; 
+    left: 350px;
+    z-index: 1;
+}
+
+.image-3 {
+    width: 260px;
+    height: 210px;
+    top: 50px; 
+    left: 950px; 
+}
+
+
+.image:hover {
+    transform: translate(5px, -5px); 
+}
+
+.square-container {
+    display: flex; 
+    gap: 10px;
+    margin-left: 50px; 
+    margin-top: auto; 
+    margin-bottom: 0px;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute; 
+    bottom: 20px; 
+    left: 0;
+    right: 0; 
+}
+
+.square {
+    border-radius:10px;
+    width: 50px;
+    height: 50px;
+    backround-color: #FFFFFF;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.square-wrapper {
+    display: flex; 
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+.square:hover {
+    transform: scale(1.5) translateY(-30%);
+    z-index: 10; 
+}
+
+.overlay {
+    position: absolute;
+    top: -150px;
+    left: 30px; 
+    transform: scale(0.5) 
+    translate(-100%, -100%);
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+
+.square:hover .overlay {
+    opacity: 1;
+}
+
+.overlay img {
+    border-radius: 10px;
+
