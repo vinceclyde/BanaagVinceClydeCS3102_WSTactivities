@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d6ffff;
+    gap: 10px;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-size: 50px;
+}
+
+textarea {
+    font-size: 20px;
+    padding: 20px;
+    width: 40%;
+    height: 20%;
+    font-family: 'Poppins'; 
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+.wordcount {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+
+.numberContainer {
+    font-family: 'Poppins';
+    font-size: 30px;
+    text-align: center;
+}
+
+
+  
+
