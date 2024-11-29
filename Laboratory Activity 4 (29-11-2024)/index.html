@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/leaf.png">
     <style>
-        /* Your existing styles */
         body {
             margin: 0;
             padding: 0;
@@ -27,19 +26,15 @@
 </head>
 <body>
     <div class="container">
-        <!-- Vinyl record item 1 -->
         <div class="item item-1">
             <div class="image-wrapper" onclick="showPopup('‎', 'popup/exile.html')">
-                <!-- Vinyl GIF with responsive sizing -->
                 <img id="the-1" src="assets/vinyl.gif" alt="Vinyl Record" width="80%" height="80%">
             </div>
-            <!-- Text and play button for item 1 -->
             <img src="assets/the1.png" alt="Song Title The 1" width="50px" height="23px"><br><br>
             <img class="bar" src="assets/bar-play.png" alt="Play Button" 
                 onclick="playPauseSong(event, 'songs/the-1.mp3')">
         </div>
     
-        <!-- Vinyl record item 2 -->
         <div class="item item-2">
             <div class="image-wrapper" onclick="showPopup('‎', 'popup/the1.html')">
                 <img id="exile" src="assets/vinyl.gif" alt="Vinyl Record" width="80%" height="80%">
@@ -49,7 +44,6 @@
                 onclick="playPauseSong(event, 'songs/exile.mp3')" width="210px" height="68px">
         </div>
     
-        <!-- Vinyl record item 3 -->
         <div class="item item-3">
             <div class="image-wrapper" onclick="showPopup('‎', 'popup/peace.html')">
                 <img id="peace" src="assets/vinyl.gif" alt="Vinyl Record" width="80%" height="80%">
@@ -69,7 +63,6 @@
         <div class="popup-content" id="popup-content"></div>
     </div>
 
-    <!-- Popup for name input -->
     <div class="popup-name" id="namePopup">
         <div class="content">
             <h3>what's your name?</h3>
@@ -79,7 +72,6 @@
         </div>
     </div>
 
-    <!-- New text popup after name submission -->
     <div class="popup-text" id="textPopup">
         <div class="content">
             <h3 id="textPopupContent"></h3>
