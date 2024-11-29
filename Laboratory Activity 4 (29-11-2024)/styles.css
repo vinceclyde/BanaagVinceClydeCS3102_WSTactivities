@@ -1,0 +1,383 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 65%;
+    background: none;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-baseline;
+}
+.item {
+    width: 250px;
+    border-radius: 20px;
+    height: 320px;
+    padding: 1.5em;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.image-wrapper {
+    cursor: pointer;
+}
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    width: 80%;
+    height: auto;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    box-sizing: content-box;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    text-align: left;
+    overflow-y: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.popup.active {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+}
+
+.popup.exit {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    visibility: visible;
+}
+
+.popup h3 {
+    margin: 0 0 20px;
+    font-size: 1.5em;
+    font-family: 'Inter';
+}
+.popup-content {
+    font-size: 1.2em;
+    font-family: 'Inter';
+    line-height: 1.5;
+}
+.popup .close-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    float: right;
+    font-size: 1em;
+    border-radius: 5px;
+}
+.popup .close-btn:hover {
+    background-color: #555;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.overlay.exit {
+    opacity: 0;
+    visibility: visible;
+}
+
+.bar {
+    width: 210px;
+    height: 42px;
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.item-1 {
+    animation-delay: 0.3s;
+}
+
+.item-2 {
+    animation-delay: 0.6s;
+}
+
+.item-3 {
+    animation-delay: 0.9s;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.slides {
+    display: none;
+    width: 50%;
+    border-radius: 10px;
+    height: auto;
+}
+.slides:first-child {
+    display: block;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    user-select: none;
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+}
+.dot-container {
+    text-align: center;
+    margin-top: 15px;
+}
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+.dot.active {
+    background-color: #717171;
+}
+.folklore-font {
+    font-family: "IM Fell DW Pica";
+    font-style: italic;
+}
+.inter-font {
+    font-family: 'Inter';
+}
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100%;
+}
+.poem-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.poem {
+    font-family: 'IM Fell DW Pica';
+    transition: transform 0.2s ease-in-out;
+    font-style: italic;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.poem:hover {
+    transform: scale(1.3);
+}
+
+.popup-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.popup-name.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-name .content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 80%;
+    font-family: 'IM Fell DW Pica';
+}
+
+.popup-name input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'IM Fell DW Pica';
+    font-style: italic;
+}
+
+.popup-name button, .close-btn {
+    padding: 5px 30px 5px 30px;
+    font-size: 16px;
+    background-color: black;
+    font-family: 'IM Fell DW Pica';
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.popup-name button:hover, .close-btn:hover {
+    background-color: gray;
+}
+
+.popup-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.popup-text.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-text .content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 80%;
+    font-family: 'IM Fell DW Pica';
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-wrapper:hover img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 767.98px) {
+    .image-wrapper img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .image-wrapper img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .image-wrapper img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+.poem-container p {
+    cursor: pointer;
+    font-size: 80px;
+    transition: color 0.3s ease;
+}
+
+.poem-container p:hover {
+    color: #555;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    font-family: 'IM Fell DW Pica';
+    width: 50%;
+    max-width: 600px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

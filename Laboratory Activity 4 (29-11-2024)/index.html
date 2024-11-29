@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>it would've been fun</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/leaf.png">
+    <style>
+        /* Your existing styles */
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('assets/fbg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            line-height: 1.6;
+            word-spacing: 1.4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Vinyl record item 1 -->
+        <div class="item item-1">
+            <div class="image-wrapper" onclick="showPopup('‎', 'popup/exile.html')">
+                <!-- Vinyl GIF with responsive sizing -->
+                <img id="the-1" src="assets/vinyl.gif" alt="Vinyl Record" width="80%" height="80%">
+            </div>
+            <!-- Text and play button for item 1 -->
+            <img src="assets/the1.png" alt="Song Title The 1" width="50px" height="23px"><br><br>
+            <img class="bar" src="assets/bar-play.png" alt="Play Button" 
+                onclick="playPauseSong(event, 'songs/the-1.mp3')">
+        </div>
+    
+        <!-- Vinyl record item 2 -->
+        <div class="item item-2">
+            <div class="image-wrapper" onclick="showPopup('‎', 'popup/the1.html')">
+                <img id="exile" src="assets/vinyl.gif" alt="Vinyl Record" width="80%" height="80%">
+            </div>
+            <img src="assets/exile.png" alt="Song Title Exile" width="60px" height="23px"><br><br>
+            <img class="bar" src="assets/bar-play.png" alt="Play Button" 
+                onclick="playPauseSong(event, 'songs/exile.mp3')" width="210px" height="68px">
+        </div>
+    
+        <!-- Vinyl record item 3 -->
+        <div class="item item-3">
+            <div class="image-wrapper" onclick="showPopup('‎', 'popup/peace.html')">
+                <img id="peace" src="assets/vinyl.gif" alt="Vinyl Record" width="80%" height="80%">
+            </div>
+            <img src="assets/peace.png" alt="Song Title Peace" width="75px" height="28px"><br><br>
+            <img class="bar" src="assets/bar-play.png" alt="Play Button" 
+                onclick="playPauseSong(event, 'songs/peace.mp3')" width="210px" height="68px">
+        </div>
+    </div>
+    
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="popup" id="popup">
+        <button class="close-btn" onclick="closePopup()">X</button>
+        <h3 id="popup-title"></h3>
+        <div class="popup-content" id="popup-content"></div>
+    </div>
+
+    <!-- Popup for name input -->
+    <div class="popup-name" id="namePopup">
+        <div class="content">
+            <h3>what's your name?</h3>
+            <input type="text" id="nameInput" placeholder="enter here ⋆｡°✩">
+            <br>
+            <button onclick="submitName()">submit</button>
+        </div>
+    </div>
+
+    <!-- New text popup after name submission -->
+    <div class="popup-text" id="textPopup">
+        <div class="content">
+            <h3 id="textPopupContent"></h3>
+            <br>
+            <button class="close-btn" onclick="closeTextPopup()">close</button>
+        </div>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
