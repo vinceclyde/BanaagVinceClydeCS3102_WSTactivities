@@ -27,6 +27,9 @@
 <pre><code>&lt;th colspan&gt;&lt;/th&gt;</code></pre>
 <pre><code>&lt;td colspan&gt;&lt;/td&gt;</code></pre>
 <pre><code>&lt;footer&gt;&lt;/footer&gt;</code></pre>
+  
+<b>Preview</b>
+
 
 </div>
 
