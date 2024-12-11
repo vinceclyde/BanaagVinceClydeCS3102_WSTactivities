@@ -37,6 +37,12 @@
   </table>
 </div>
 
+<b>Important Notes</b><br>
+• <b>&lt;th table&gt;</b> <br>
+• <b>&lt;th colspan&gt;</b> <br>
+• <b>&lt;th rowspan&gt;</b> specifies how many rows a table cell should span. Refer to the lunch schedule in the image and observe how it spans to three days.
+<pre><code>&lt;td colspan="3"&gt;&lt;b&gt;LUNCH&lt;/b&gt;&lt;/td&gt;</code></pre>
+• <b>&lt;th footer&gt;</b> <br>
 </div>
 
 ### <a name="lab2"></a>
