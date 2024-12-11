@@ -32,7 +32,7 @@
 <div align="center">
   <table>
     <tr>
-      <td><img src="https://i.ibb.co/y5qPCc6/Screenshot-2024-12-11-150033.png"></td>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/Screenshot%202024-12-11%20150033.png?raw=true"></td>
     </tr>
   </table>
 </div>
