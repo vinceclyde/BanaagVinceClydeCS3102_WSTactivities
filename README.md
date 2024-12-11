@@ -29,7 +29,13 @@
 <pre><code>&lt;footer&gt;&lt;/footer&gt;</code></pre>
   
 <b>Preview</b>
-
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://i.ibb.co/y5qPCc6/Screenshot-2024-12-11-150033.png"></td>
+    </tr>
+  </table>
+</div>
 
 </div>
 
