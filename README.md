@@ -36,7 +36,7 @@
 <pre><code>&lt;td colspan&gt;&lt;/td&gt;</code></pre>
 <pre><code>&lt;footer&gt;&lt;/footer&gt;</code></pre>
   
-<h3>Preview</h3>
+<h3>Preview:</h3>
 <div align="center">
   <table>
     <tr>
@@ -45,7 +45,7 @@
   </table>
 </div>
 
-<h3>Important Notes</h3>
+<h3>Important Notes:</h3>
 • <b>&lt;th table&gt;</b> represents tabular data—that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.<br><br>
 <pre><code>&lt;table&gt;
   <i>&lt;!-- Your table content here... --&gt;</i>
@@ -77,7 +77,7 @@
   <i>&lt;! -- Your content here... --&gt;</i>
 &lt;/div&gt;</code></pre>
   
-<h3>Preview</h3>
+<h3>Preview:</h3>
 <div align="center">
   <table>
     <tr>
@@ -91,10 +91,10 @@
   </table>
 </div>
 
-<h3>Important Notes</h3>
+<h3>Important Notes:</h3>
 • The <b>class = "yourClassName"</b> associates the <b>&lt;div&gt;</b> element with the <b>.yourClassName</b> style in the CSS.<br><br>
 • <b>display: flex;</b> sets an element as a flex container, enabling the use of the Flexbox layout model for its child elements while <b>flex-direction: row;</b> arranges the flex items in a row (horizontally).<br><br>
-• <b>justify-content: center;</b> aligns and centers flex items horizontally along the main axis (row is the default value) while <b>align-items: center;</b> aligns and centers flex items vertically along the cross-axis (column is the default value). Refer to the application icons in the bottom of the webpage and observe how the icons are displayed in a row, and are cleanly centered both horizontally and vertically inside the icon container.<br><br>
+• <b>justify-content: center;</b> aligns and centers flex items horizontally along the main axis (row is the default value) while <b>align-items: center;</b> aligns and centers flex items vertically along the cross-axis (column is the default value). Refer to the application icons at the bottom of the webpage and observe how the icons are displayed in a row, and are cleanly centered both horizontally and vertically inside the icon container.<br><br>
 <pre><code>.app-container {
   <i>/* Styling for the app icons container... */</i> 
   display: flex;
@@ -110,6 +110,32 @@
 
 ### <a name="lab3"></a>
 ## 🔢 Laboratory 3 | Word and Sentence Counter
+
+<b>Lesson(s): </b>JavaScript<br><br> 
+<b>Agenda: </b> Create a tool that counts the number of words and sentences in a given text. The tool should include a text area for user input and dynamically update the word and sentence counts as the user types. Updates should occur automatically whenever the content changes.
+
+<b>Relevant Syntax Utilized:</b>
+<pre><code>&lt;textarea&gt;</code></pre>
+<pre><code>trim()</code></pre>
+<pre><code>split()</code></pre>
+<pre><code>length</code></pre>
+<pre><code>filter</code></pre>
+<pre><code>addEventListener</code></pre>
+
+<h3>Preview:</h3>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20160926.png" width="400px"></td>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20161007.png" width="400px"></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20161027.png" width="400px"></td>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20161056.png" width="400px"></td>
+    </tr>
+  </table>
+</div>
+<h3>Important Notes:</h3>
 
 ### <a name="lab4"></a>
 ## 🍃 Laboratory 4 | Refined Exercise #2
