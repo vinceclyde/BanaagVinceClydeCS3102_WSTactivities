@@ -22,10 +22,15 @@
 ### <a name="overview"></a>
 ## 🐱 Overview
 
+<div align="justify">
+This repository serves as a comprehensive collection of laboratory deliverables created in fulfillment of the course IT 314: Web Systems and Technologies. It encompasses a series of web development activities designed to demonstrate the practical application of key concepts and techniques covered throughout the course.<br><br>
+
+Included below is a brief documentation that delves into the concepts and methodologiesapplied in the development of each webpage required by the laboratory exercises. The documentation outlines the coding practices and approaches employed, offering insights into the process and the technical decisions that shaped the outcome of each project.
+<br>
+
 ### <a name="lab1"></a>
 ## 📅 Laboratory 1 | Class Schedule
 
-<div align="justify">
 <b>Lesson(s): </b>HTML Tables, HTML Semantics<br><br> 
 <b>Agenda: </b> Create an HTML file that contains sections for your class schedule visualized by an HTML table and a footer section that contains the list of courses (course code and description).<br><br>
 <b>Relevant Syntax Utilized: </b><br><br>
@@ -58,6 +63,7 @@
 <pre><code>&lt;footer&gt;
   <i>&lt;! -- Your footer content here... --&gt;</i>
 &lt;/footer&gt;</code></pre>
+<br>
 
 ### <a name="lab2"></a>
 ## ✈️ Laboratory 2 | Vision Board
@@ -107,6 +113,7 @@
   <i>&lt;!-- Your app icons here... --></i>
 &lt;/div&gt;
 </code></pre>
+<br>
 
 ### <a name="lab3"></a>
 ## 🔢 Laboratory 3 | Word and Sentence Counter
@@ -154,6 +161,7 @@ button.addEventListener('click', () => {
     alert('Button clicked!');
 });
 </code></pre>
+<br>
 
 ### <a name="lab4"></a>
 ## 🍃 Laboratory 4 | Refined Exercise #2
@@ -228,6 +236,7 @@ body {
     }
 }
 </code></pre>
+<br>
 
 ### <a name="portfolio"></a>
 ## 📁 Student Portfolio
@@ -238,7 +247,7 @@ body {
       <img src="https://i.ibb.co/MZMmvPN/Passport-Picture-1-removebg-preview.png" width="55%">
     </th>
     <td>
-      <div align="left"><strong>💡Vince Clyde S. Banaag</strong><br>
+      <div align="left"><strong>Vince Clyde S. Banaag</strong><br>
         ➟ CS-3102<br>
         ➟ 22-06373<br>
       </div>
@@ -246,9 +255,14 @@ body {
   </tr>
 </table>
 </div>
+<br>
 
 ### <a name="acknowledgement"></a>
 ## 🩷 Acknowledgement
+I would like to express my heartfelt gratitude to our instructor in this course, Ms. Fatima Marie Agdon, MSCS, for her unfaltering hard work, dedication, and genuine passion for teaching. She has consistently gone above and beyond to ensure that each of her students not only understands the complexities of the subject matter but also develops the confidence and skills necessary to excel in their academic journey. 
+
+As an avid fan of the Pokémon franchise, I have often drawn inspiration from the qualities of its iconic protagonists—their determination, resilience, and ability to overcome any challenge or obstacle. In Ms. Fatima Marie Agdon, I see those same qualities come to life. She embodies the unwavering strength and steadfast resolve of a <img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/image-removebg-preview%20(1)%20(1).png" height="15px"> type, tackling even the toughest of challenges with grace and fortitude. At the same time, she possesses the nurturing warmth and compassion of a <img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/image-removebg-preview%20(2).png" height="15px"> type, always considerate and supportive, ensuring her students feel encouraged and valued every step of the way.
+
 </div>
 
 
