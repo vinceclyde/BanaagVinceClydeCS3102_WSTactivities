@@ -40,7 +40,7 @@
 <div align="center">
   <table>
     <tr>
-      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/Screenshot%202024-12-11%20150033.png?raw=true"></td>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-11%20150033.png"></td>
     </tr>
   </table>
 </div>
