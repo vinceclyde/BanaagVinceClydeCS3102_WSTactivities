@@ -55,7 +55,6 @@
 • <b>&lt;colspan&gt;</b> specifies how many columns a table cell should span. Refer to the lunch schedule in the image and observe how it spans to three days.<br><br>
 <pre><code>&lt;td colspan="3"&gt;LUNCH&lt;/td&gt;</code></pre>
 • <b>&lt;th footer&gt;</b> defines a footer for a document or section. In practical use, it typically contains authorship information, copyright information, contact information, sitemap, back-to-top links, and related documents.<br><br>
-</div>
 <pre><code>&lt;footer&gt;
   <i>&lt;! -- Your footer content here... --&gt;</i>
 &lt;/footer&gt;</code></pre>
@@ -65,12 +64,13 @@
 
 <b>Lesson(s): </b>CSS Flexbox<br><br> 
 <b>Agenda: </b> Create an personalized vision board webpage using basic HTML and CSS Flexbox. The vision board will include images, inspirational quites, and goals, allowing students to visually represent their aspirations.<br><br>
-<b>Relevant Syntax Utilized: </b><br><br>
+<b>Relevant Syntax Utilized: </b><br>
 <pre><code>display: flex;</code></pre>
+<pre><code>flex-direction: row;</code></pre>
 <pre><code>justify-content: center;</code></pre>
 <pre><code>align-items: center;</code></pre>
 <pre><code>.yourClassName {
-  <i>&lt;! -- Your styles here... --&gt;</i>
+  <i>/* Your styles here... */</i>
 }
 </code></pre>
 <pre><code>&lt;div class = "yourClassName"&gt;
@@ -81,12 +81,32 @@
 <div align="center">
   <table>
     <tr>
-      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/Screenshot%202024-12-11%20150033.png?raw=true"></td>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20145431.png" width="400px"></td>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20145438.png" width="400px"></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20145456.png" width="400px"></td>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20145514.png" width="400px"></td>
     </tr>
   </table>
 </div>
 
 <h3>Important Notes</h3>
+• The <b>class = "yourClassName"</b> associates the <b>&lt;div&gt;</b> element with the <b>.yourClassName</b> style in the CSS.<br><br>
+• <b>display: flex;</b> sets an element as a flex container, enabling the use of the Flexbox layout model for its child elements while <b>flex-direction: row;</b> arranges the flex items in a row (horizontally).<br><br>
+• <b>justify-content: center;</b> aligns and centers flex items horizontally along the main axis (row is the default value) while <b>align-items: center;</b> aligns and centers flex items vertically along the cross-axis (column is the default value). Refer to the application icons in the bottom of the webpage and observe how the icons are displayed in a row, and are cleanly centered both horizontally and vertically inside the icon container.<br><br>
+<pre><code>.app-container {
+  <i>/* Styling for the app icons container... */</i> 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items; center;
+}
+</code></pre>
+<pre><code>&lt;div class="app-container"&gt;
+  <i>&lt;!-- Your app icons here... --></i>
+&lt;/div&gt;
+</code></pre>
 
 ### <a name="lab3"></a>
 ## 🔢 Laboratory 3 | Word and Sentence Counter
@@ -99,5 +119,7 @@
 
 ### <a name="acknowledgement"></a>
 ## 🩷 Acknowledgement
+</div>
+
 
 
