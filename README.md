@@ -33,7 +33,7 @@ Included below is a brief documentation that delves into the concepts and method
 
 <b>Lesson(s): </b>HTML Tables, HTML Semantics<br><br> 
 <b>Agenda: </b> Create an HTML file that contains sections for your class schedule visualized by an HTML table and a footer section that contains the list of courses (course code and description).<br><br>
-<b>Relevant Syntax Utilized: </b><br><br>
+<b>Relevant Syntax Utilized: </b><br>
 <pre><code>&lt;table&gt;&lt;/table&gt;</code></pre>
 <pre><code>&lt;th rowspan&gt;&lt;/th&gt;</code></pre>
 <pre><code>&lt;td rowspan&gt;&lt;/td&gt;</code></pre>
@@ -169,7 +169,7 @@ button.addEventListener('click', () => {
 <b>Lesson(s): </b> Responsive Web Design<br><br>
 <b>Agenda: </b> Enhance the Exercise #2 activity in Web Systems and Technologies. Feel free to add animations, enhance the color palette, fonts, and add more details aside from personal, contact, and basic info.
 
-<h3>Relevant Syntax Utilized:</h3>
+<b>Relevant Syntax Utilized:</b>
 <pre><code>document.getElementById</code></pre>
 <pre><code>document.getElementById('elementName').style.display</code></pre>
 <pre><code>document.getElementById('elementName').innerText</code></pre>
