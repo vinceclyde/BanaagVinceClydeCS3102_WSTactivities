@@ -62,7 +62,7 @@
 ### <a name="lab2"></a>
 ## ✈️ Laboratory 2 | Vision Board
 
-<b>Lesson(s): </b>CSS Flexbox<br><br> 
+<b>Lesson(s): </b>HTML, CSS Flexbox<br><br> 
 <b>Agenda: </b> Create an personalized vision board webpage using basic HTML and CSS Flexbox. The vision board will include images, inspirational quites, and goals, allowing students to visually represent their aspirations.<br><br>
 <b>Relevant Syntax Utilized: </b><br>
 <pre><code>display: flex;</code></pre>
@@ -111,7 +111,7 @@
 ### <a name="lab3"></a>
 ## 🔢 Laboratory 3 | Word and Sentence Counter
 
-<b>Lesson(s): </b>JavaScript<br><br> 
+<b>Lesson(s): </b>JavaScript, HTML, CSS<br><br> 
 <b>Agenda: </b> Create a tool that counts the number of words and sentences in a given text. The tool should include a text area for user input and dynamically update the word and sentence counts as the user types. Updates should occur automatically whenever the content changes.
 
 <b>Relevant Syntax Utilized:</b>
@@ -158,8 +158,94 @@ button.addEventListener('click', () => {
 ### <a name="lab4"></a>
 ## 🍃 Laboratory 4 | Refined Exercise #2
 
+<b>Lesson(s): </b> Responsive Web Design<br><br>
+<b>Agenda: </b> Enhance the Exercise #2 activity in Web Systems and Technologies. Feel free to add animations, enhance the color palette, fonts, and add more details aside from personal, contact, and basic info.
+
+<h3>Relevant Syntax Utilized:</h3>
+<pre><code>document.getElementById</code></pre>
+<pre><code>document.getElementById('elementName').style.display</code></pre>
+<pre><code>document.getElementById('elementName').innerText</code></pre>
+<pre><code>function</code></pre>
+<pre><code>innerHTML</code></pre>
+<pre><code>*/ Media queries */
+@media <media-type> and (condition) {
+  /* CSS rules for the specified media type and condition go here... */
+}
+</code></pre>
+<h3>Preview:</h3>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20182125.png" width="400px"></td>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20182134.png" width="400px"></td>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20182149.png" width="400px"></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20182153.png" width="400px"></td>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20182216.png" width="400px"></td>
+      <td><img src="https://github.com/vinceclyde/BanaagVinceClydeCS3102_WSTactivities/blob/main/assets/Screenshot%202024-12-12%20182221.png" width="400px"></td>
+    </tr>
+  </table>
+</div>
+  
+<h3>Important Notes:</h3>
+• <b>document.getElementbyId</b> retrieves an HTML element by its id.<br><br>
+<pre><code>&lt;input type="text" id="nameInput" placeholder="enter here ⋆｡°✩"&gt;</code></pre>
+<pre><code>const name = document.getElementById('nameInput').value;</code></pre>
+• <b>document.getElementById('elementName').innerText</b> retrieves or sets the text content of an element, excluding any HTML tags. Refer to the second image in the preview.<br><br>
+<pre><code>document.getElementById('textPopupContent').innerText = `hello there, ${name}!`;</code></pre>
+• <b>document.getElementById('elementName').style.display</b> accesses the style property of an element and specifically the display style and allows toggling visibility of elements (block, none, etc.).<br><br>
+<pre><code> // This is used to hide the popup.
+document.getElementById('namePopup').style.display = 'none';
+</code></pre>
+• A <b>function</b> is a reusable block of code designed to perform a specific task. It can take arguments, perform operations, and return results.<br><br>
+<pre><code>function submitName() {
+    const name = document.getElementById('nameInput').value;
+    // Rest of the logic...
+}
+</code></pre>
+• <b>innerHTML</b> retrieves or sets the HTML content inside an element. this allows for rendering complex HTML structures. The code below dynamically updates the content of <i>popupContent</i> with the HTML fetched from the specified file.<br><br>
+<pre><code>popupContent.innerHTML = html;</code></pre>
+• <b>Media queries</b> allow you to apply styles based on the characteristics of the device displaying the content, such as screen width, height, resolution, or orientation. This is essential for responsive design, where the layout adapts to different screen sizes (e.g., mobile, tablet, desktop).<br><br>
+<pre><code>/* Default styles (applies to all screen sizes) */
+body {
+    font-size: 16px;
+}
+</code></pre>
+
+<pre><code>/* For screens 600px wide or less */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+}
+</code></pre>
+
+<pre><code>/* For screens wider than 600px */
+@media (min-width: 601px) {
+    body {
+        font-size: 18px; /* Larger font for bigger screens */
+    }
+}
+</code></pre>
+
 ### <a name="portfolio"></a>
-## 📁 Portfolio
+## 📁 Student Portfolio
+<div align="center">
+<table style="width: 100%; table-layout: auto;">
+  <tr>
+    <th style="width: 80px; text-align: center;">
+      <img src="https://i.ibb.co/MZMmvPN/Passport-Picture-1-removebg-preview.png" width="55%">
+    </th>
+    <td>
+      <div align="left"><strong>💡Vince Clyde S. Banaag</strong><br>
+        ➟ CS-3102<br>
+        ➟ 22-06373<br>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
 
 ### <a name="acknowledgement"></a>
 ## 🩷 Acknowledgement
