@@ -25,7 +25,7 @@
 <div align="justify">
 This repository serves as a comprehensive collection of laboratory deliverables created in fulfillment of the course IT 314: Web Systems and Technologies. It encompasses a series of web development activities designed to demonstrate the practical application of key concepts and techniques covered throughout the course.<br><br>
 
-Included below is a brief documentation that delves into the concepts and methodologiesapplied in the development of each webpage required by the laboratory exercises. The documentation outlines the coding practices and approaches employed, offering insights into the process and the technical decisions that shaped the outcome of each project.
+Included below is a brief documentation that delves into the concepts and methodologies applied in the development of each webpage required by the laboratory exercises. The documentation outlines the coding practices and approaches employed, offering insights into the process and the technical decisions that shaped the outcome of each project.
 <br>
 
 ### <a name="lab1"></a>
