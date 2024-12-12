@@ -12,7 +12,7 @@
 - [Laboratory 2](#lab2)
 - [Laboratory 3](#lab3)
 - [Laboratory 4](#lab4)
-- [Student Portfolio](#portfolio)
+- [Student Profile](#profile)
 - [Acknowledgement](#acknowledgement)
 
 
@@ -238,8 +238,8 @@ body {
 </code></pre>
 <br>
 
-### <a name="portfolio"></a>
-## 📁 Student Portfolio
+### <a name="profile"></a>
+## 📁 Student Profile
 <div align="center">
 <table style="width: 100%; table-layout: auto;">
   <tr>
