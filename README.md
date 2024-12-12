@@ -136,6 +136,24 @@
   </table>
 </div>
 <h3>Important Notes:</h3>
+• <b>&lt;textarea&gt;</b> is used to create a multi-line input field where users can enter large amounts of text, such as comments or descriptions. <b>rows </b>specifies the number of visible text lines in the text area while <b>cols</b> specifies the width of the text area in terms of the number of visible character columns. <b>placeholder</b> provides a hint or instruction to the user, displayed inside the text area as light gray text until the user starts typing.
+<br><br>
+<pre><code>&lt;textarea rows="10" cols="50" placeholder="Enter your text here..."&gt;&lt;/textarea&gt;</code></pre>
+• <b>trim()</b> removes whitespaces from both sides of a string. This ensures that any leading or trailing spaces in the user's input are removed before further processing.<br><br>
+<pre><code>const text = textInput.value.trim();</code></pre>
+• <b>split()</b> splits a string into an array of substrings based on a specified delimiter (regular expression or string). In the code below, <b>split(/\s+/)</b> method splits the text into an array of words based on one or more whitespace characters <b>(\s+)</b>, which includes spaces, tabs, and newlines.<br><br>
+<pre><code>const words = text.split(/\s+/).filter(word => word.length > 0);</code></pre>
+• <b>length</b> returns the number of elements in an array or the number of characters in a string. In the code below, the <b>sentences.length</b> property returns the number of sentences in the array created by <b>split()</b>. This gives the total sentence count.<br><br>
+<pre><code>const sentenceCount = sentences.length;</code></pre>
+• <b>filter</b> creates a new array with all elements that pass a test provided by a function. After splitting the text into an array of words, the <b>filter(word => word.length > 0)</b> method removes any empty strings (which could occur if there were extra spaces in the input) from the array of words. This ensures that only actual words are counted.<br><br>
+<pre><code>const sentences = text.split(/[.!?]+/).filter(sentence => sentence.trim().length > 0);</code></pre>
+• <b>addEventListener</b> is used to attach an event handler (a function) to a specified event on an HTML element. This allows you to respond to user interactions or other events that occur on the page, such as clicks, keypresses, mouse movements, etc.<br><br>
+<pre><code>// Sample usage of addEventListener to a button in JavaScript
+const button = document.getElementById('myButton');
+button.addEventListener('click', () => {
+    alert('Button clicked!');
+});
+</code></pre>
 
 ### <a name="lab4"></a>
 ## 🍃 Laboratory 4 | Refined Exercise #2
