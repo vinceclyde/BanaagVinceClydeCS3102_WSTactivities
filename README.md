@@ -6,13 +6,21 @@
 
 <details>
 <summary><h2>📝 Contents</h2></summary>
-
+  
+- [Overview](#overview)
 - [Laboratory 1](#lab1)
 - [Laboratory 2](#lab2)
 - [Laboratory 3](#lab3)
 - [Laboratory 4](#lab4)
+- [Student Portfolio](#portfolio)
+- [Acknowledgement](#acknowledgement)
+
+
 
 </details>
+
+### <a name="overview"></a>
+## 🐱 Overview
 
 ### <a name="lab1"></a>
 ## 📅 Laboratory 1 | Class Schedule
@@ -28,7 +36,7 @@
 <pre><code>&lt;td colspan&gt;&lt;/td&gt;</code></pre>
 <pre><code>&lt;footer&gt;&lt;/footer&gt;</code></pre>
   
-<b>Preview</b>
+<h3>Preview</h3>
 <div align="center">
   <table>
     <tr>
@@ -37,13 +45,20 @@
   </table>
 </div>
 
-<b>Important Notes</b><br>
-• <b>&lt;th table&gt;</b> <br>
-• <b>&lt;th colspan&gt;</b> <br>
-• <b>&lt;th rowspan&gt;</b> specifies how many rows a table cell should span. Refer to the lunch schedule in the image and observe how it spans to three days.
-<pre><code>&lt;td colspan="3"&gt;&lt;b&gt;LUNCH&lt;/b&gt;&lt;/td&gt;</code></pre>
-• <b>&lt;th footer&gt;</b> <br>
+<h3>Important Notes</h3>
+• <b>&lt;th table&gt;</b> represents tabular data—that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.<br><br>
+<pre><code>&lt;table&gt;
+  <i>Your table content here...</i>
+&lt;/table&gt;</code></pre>
+• <b>&lt;th rowspan&gt;</b> specifies how many rows a table cell should span. Refer to the PHY 101 schedule on Tuesday and observe how it spans to three time periods.<br><br>
+<pre><code>&lt;td rowspan="3"&gt;PHY 101&lt;/td&gt;</code></pre>
+• <b>&lt;colspan&gt;</b> specifies how many columns a table cell should span. Refer to the lunch schedule in the image and observe how it spans to three days.<br><br>
+<pre><code>&lt;td colspan="3"&gt;LUNCH&lt;/td&gt;</code></pre>
+• <b>&lt;th footer&gt;</b> defines a footer for a document or section. In practical use, it typically contains authorship information, copyright information, contact information, sitemap, back-to-top links, and related documents.<br><br>
 </div>
+<pre><code>&lt;footer&gt;
+  <i>Your footer content here...</i>
+&lt;/footer&gt;</code></pre>
 
 ### <a name="lab2"></a>
 ## ✈️ Laboratory 2 | Vision Board
@@ -53,5 +68,11 @@
 
 ### <a name="lab4"></a>
 ## 🍃 Laboratory 4 | Refined Exercise #2
+
+### <a name="portfolio"></a>
+## 📁 Portfolio
+
+### <a name="acknowledgement"></a>
+## 🩷 Acknowledgement
 
 
