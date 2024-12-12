@@ -48,7 +48,7 @@
 <h3>Important Notes</h3>
 • <b>&lt;th table&gt;</b> represents tabular data—that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.<br><br>
 <pre><code>&lt;table&gt;
-<i>&lt;!-- Your table content here... --&gt;</i>
+  <i>&lt;!-- Your table content here... --&gt;</i>
 &lt;/table&gt;</code></pre>
 • <b>&lt;th rowspan&gt;</b> specifies how many rows a table cell should span. Refer to the PHY 101 schedule on Tuesday and observe how it spans to three time periods.<br><br>
 <pre><code>&lt;td rowspan="3"&gt;PHY 101&lt;/td&gt;</code></pre>
@@ -70,11 +70,11 @@
 <pre><code>justify-content: center;</code></pre>
 <pre><code>align-items: center;</code></pre>
 <pre><code>.yourClassName {
-<i>&lt;! -- Your styles here... --&gt;</i>
+  <i>&lt;! -- Your styles here... --&gt;</i>
 }
 </code></pre>
 <pre><code>&lt;div class = "yourClassName"&gt;
-<i>&lt;! -- Your content here... --&gt;</i>
+  <i>&lt;! -- Your content here... --&gt;</i>
 &lt;/div&gt;</code></pre>
   
 <h3>Preview</h3>
@@ -85,6 +85,8 @@
     </tr>
   </table>
 </div>
+
+<h3>Important Notes</h3>
 
 ### <a name="lab3"></a>
 ## 🔢 Laboratory 3 | Word and Sentence Counter
