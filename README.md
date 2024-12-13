@@ -55,7 +55,7 @@ Included below is a brief documentation that delves into the concepts and method
 <pre><code>&lt;table&gt;
   <i>&lt;!-- Your table content here... --&gt;</i>
 &lt;/table&gt;</code></pre>
-• <b>&lt;th rowspan&gt;</b> specifies how many rows a table cell should span. Refer to the PHY 101 schedule on Tuesday and observe how it spans to three time periods.<br><br>
+• <b>&lt;rowspan&gt;</b> specifies how many rows a table cell should span. Refer to the PHY 101 schedule on Tuesday and observe how it spans to three time periods.<br><br>
 <pre><code>&lt;td rowspan="3"&gt;PHY 101&lt;/td&gt;</code></pre>
 • <b>&lt;colspan&gt;</b> specifies how many columns a table cell should span. Refer to the lunch schedule in the image and observe how it spans to three days.<br><br>
 <pre><code>&lt;td colspan="3"&gt;LUNCH&lt;/td&gt;</code></pre>
